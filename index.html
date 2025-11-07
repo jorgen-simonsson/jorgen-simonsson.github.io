@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jörgen Simonsson — Senior Software Engineer</title>
+  <meta name="description" content="Senior Software Engineer | Edge & AI-Driven Systems — Jörgen Simonsson" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b1020; --card:#111833; --text:#e9eefb; --muted:#aab6da; --accent:#5aa0ff; --chip:#1a2347;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#0b1020,#0a0f1d 45%,#0b1020);color:var(--text)}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:980px;margin:0 auto;padding:32px 20px}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:84px;height:84px;border-radius:16px;background:var(--chip);display:grid;place-items:center;font-weight:800;font-size:28px;color:#cfe2ff;border:1px solid #2a3666}
+    .title h1{margin:0;font-size:28px;line-height:1.2}
+    .title p{margin:4px 0 0;color:var(--muted)}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .chip{background:var(--chip);border:1px solid #25305f;color:#c8d5ff;padding:6px 10px;border-radius:999px;font-size:12px}
+    .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:28px}
+    @media(min-width:900px){.grid{grid-template-columns:1.2fr .8fr}}
+    section{background:rgba(255,255,255,0.02);border:1px solid #1f2a54;border-radius:16px;padding:18px 18px 14px}
+    section h2{margin:0 0 10px 0;font-size:18px;color:#dbe7ff}
+    ul{margin:6px 0 0 18px}
+    li{margin:6px 0}
+    .block{display:flex;gap:12px;margin:10px 0}
+    .when{min-width:110px;color:#9fb1e6}
+    footer{margin:28px 0 8px;color:#95a5d6;text-align:center;font-size:12px}
+    .buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;border:1px solid #2a3666;background:#121a36;color:#dbe7ff}
+    .btn:hover{background:#162044}
+    .muted{color:var(--muted)}
+    .nowrap{white-space:nowrap}
+    .proj{display:grid;gap:12px}
+    .proj article{border:1px solid #22305f;border-radius:14px;padding:12px;background:#10183a}
+    .proj h3{margin:0;font-size:16px}
+    .contact-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}
+    .contact-row a{background:#0f1735;border:1px solid #22305f;padding:8px 12px;border-radius:10px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar" aria-hidden="true">JS</div>
+      <div class="title">
+        <h1>Jörgen Simonsson</h1>
+        <p>Senior Software Engineer — Edge &amp; AI‑Driven Systems · Lund, Sweden</p>
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">Go (Golang)</span>
+          <span class="chip">C/C++/C#</span>
+          <span class="chip">Rust</span>
+          <span class="chip">Linux · Docker · K8s</span>
+          <span class="chip">Azure IoT Hub</span>
+          <span class="chip">MQTT · RabbitMQ</span>
+          <span class="chip">Edge/IoT · EV Charging</span>
+        </div>
+        <div class="buttons">
+          <a class="btn" href="#contact">Contact</a>
+          <a class="btn" href="#projects">Projects</a>
+          <a class="btn" href="#experience">Experience</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section>
+        <h2>About</h2>
+        <p>Experienced engineer and project manager with 40+ years across embedded systems, industrial IoT and modern edge‑to‑cloud architectures. I design and deploy distributed solutions that connect field devices to cloud analytics and AI‑assisted automation. Recent focus: AI‑supported development, anomaly detection and predictive processing at the edge.</p>
+        <ul class="muted">
+          <li>Air‑gapped, on‑prem edge systems for grid operators</li>
+          <li>AI/ML on resource‑constrained edge devices</li>
+          <li>Azure IoT Hub integrations · device onboarding · telemetry</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-row">
+          <a href="mailto:jorgen.simonsson@gmail.com">jorgen.simonsson@gmail.com</a>
+          <a href="tel:+46706912360" class="nowrap">+46 70 691 23 60</a>
+          <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener">github.com/YOUR‑GITHUB‑USERNAME</a>
+          <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </section>
+    </div>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <div class="proj">
+        <article>
+          <h3>Edge Data Platform for Energy/IoT</h3>
+          <p class="muted">Distributed edge‑to‑cloud dataflows using MQTT, RabbitMQ, ClickHouse and Azure IoT Hub. Focus on observability, low‑touch provisioning and secure updates.</p>
+        </article>
+        <article>
+          <h3>EV Charging Edge Control</h3>
+          <p class="muted">Real‑time monitoring and dynamic load balancing across charging stations. Hybrid cloud control plane; on‑prem fail‑safe operation.</p>
+        </article>
+        <article>
+          <h3>ISBN Scanner (PWA)</h3>
+          <p class="muted">Mobile web app that scans barcodes or performs OCR on printed ISBN, validates checksum and fetches metadata from Open Library.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="block">
+        <div class="when">2021–now</div>
+        <div>
+          <strong>Senior Software Engineer · Pratexo, Lund</strong>
+          <ul>
+            <li>Distributed edge‑to‑cloud platform for industrial IoT and electrification</li>
+            <li>Design/deploy tools for multi‑layer cluster simulation and rollout</li>
+            <li>Services in Python, Go, Rust, JavaScript; Docker &amp; Kubernetes</li>
+            <li>Azure IoT Hub device onboarding &amp; telemetry ingestion</li>
+            <li>Air‑gapped on‑prem systems for grid operators</li>
+            <li>AI/ML at the edge: anomaly detection &amp; predictive processing</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="when">1998–2021</div>
+        <div>
+          <strong>Software Engineer · Dover Fueling Solutions, Malmö</strong>
+          <ul>
+            <li>Automation systems at global scale (C#, C/C++, SQL, ASP.NET Core)</li>
+            <li>Firmware/RTOS on embedded devices; agile global collaboration</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="when">1981–1998</div>
+        <div>
+          <strong>Software Developer · Codab AB, Malmö</strong>
+          <ul>
+            <li>Embedded systems (Assembler, C, C++), hardware &amp; instrumentation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> Python, Go, C, C++, C#, Rust, JavaScript</li>
+        <li><strong>Platforms:</strong> Linux, Docker, Kubernetes, Azure, GCP</li>
+        <li><strong>Data/Integration:</strong> SQL, REST, MQTT, RabbitMQ, ClickHouse, InfluxDB</li>
+        <li><strong>Embedded/Edge:</strong> RTOS (RMX, FreeRTOS), Modbus, Raspberry Pi</li>
+        <li><strong>DevOps:</strong> Git, CI/CD, Agile (Scrum/Kanban)</li>
+      </ul>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Jörgen Simonsson — Lund, Sweden
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
